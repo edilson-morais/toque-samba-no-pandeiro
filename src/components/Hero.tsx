@@ -1,0 +1,35 @@
+import { Button } from "@/components/ui/button";
+import { Music } from "lucide-react";
+
+export const Hero = () => {
+  return (
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-hero text-primary-foreground overflow-hidden">
+      <div className="absolute inset-0 bg-primary-foreground/5"></div>
+      
+      <div className="container max-w-4xl mx-auto px-6 text-center relative z-10">
+        <div className="flex justify-center mb-8">
+          <div className="bg-primary-foreground/20 p-4 rounded-full backdrop-blur-sm">
+            <Music className="w-12 h-12 text-primary-foreground" />
+          </div>
+        </div>
+        
+        <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+          Toque Samba no Pandeiro em apenas{" "}
+          <span className="text-primary-glow">7 Dias</span>
+        </h1>
+        
+        <p className="text-xl md:text-2xl mb-12 text-primary-foreground/90 max-w-3xl mx-auto leading-relaxed">
+          Aprenda os fundamentos do samba no pandeiro com uma metodologia prática, 
+          divertida e acessível — mesmo que você nunca tenha tocado antes.
+        </p>
+        
+        <Button 
+          size="lg" 
+          className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 text-lg px-8 py-6 h-auto font-semibold shadow-glow"
+        >
+          👉 QUERO COMEÇAR AGORA
+        </Button>
+      </div>
+    </section>
+  );
+};
