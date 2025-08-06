@@ -18,10 +18,25 @@ export const Hero = () => {
           <span className="text-primary-glow">7 Dias</span>
         </h1>
         
-        <p className="text-xl md:text-2xl mb-12 text-primary-foreground/90 max-w-3xl mx-auto leading-relaxed">
+        <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 max-w-3xl mx-auto leading-relaxed">
           Aprenda os fundamentos do samba no pandeiro com uma metodologia prática, 
           divertida e acessível — mesmo que você nunca tenha tocado antes.
         </p>
+        
+        <div className="mb-12 max-w-4xl mx-auto">
+          <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-elegant">
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/ryskM4LGrtk"
+              title="Pandeiro Tutorial"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="absolute inset-0"
+            ></iframe>
+          </div>
+        </div>
         
         <Button 
           size="lg" 
