@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Music } from "lucide-react";
 
@@ -15,7 +16,7 @@ export const Hero = () => {
         
         <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
           Toque Samba no Pandeiro em apenas{" "}
-          <span className="text-primary-glow">7 Dias</span>
+          <span className="text-burnt-orange">7 Dias</span>
         </h1>
         
         <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 max-w-3xl mx-auto leading-relaxed">
