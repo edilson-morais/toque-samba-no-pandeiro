@@ -24,7 +24,7 @@ export const InstructorSection = () => {
             <div className="space-y-6">
               <div className="flex items-center">
                 <div className="bg-primary/10 p-3 rounded-full mr-4">
-                  <Award className="w-6 h-6 text-primary" />
+                  <Award className="w-6 h-6 text-secondary" />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-foreground">Mestre Reconhecido</h3>
@@ -34,7 +34,7 @@ export const InstructorSection = () => {
 
               <div className="flex items-center">
                 <div className="bg-primary/10 p-3 rounded-full mr-4">
-                  <Users className="w-6 h-6 text-primary" />
+                  <Users className="w-6 h-6 text-secondary" />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-foreground">Milhares de Alunos</h3>
@@ -44,7 +44,7 @@ export const InstructorSection = () => {
 
               <div className="flex items-center">
                 <div className="bg-primary/10 p-3 rounded-full mr-4">
-                  <Music className="w-6 h-6 text-primary" />
+                  <Music className="w-6 h-6 text-secondary" />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-foreground">Método Único</h3>

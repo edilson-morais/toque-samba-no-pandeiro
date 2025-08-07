@@ -34,7 +34,7 @@ export const Footer = () => {
           
           <div className="text-sm">
             <span className="text-muted-foreground">Contato: </span>
-            <a href="mailto:edilsomdil@gmail.com" className="text-primary hover:text-primary-glow transition-colors">
+            <a href="mailto:edilsomdil@gmail.com" className="text-secondary hover:text-secondary/80 transition-colors">
               edilsomdil@gmail.com
             </a>
           </div>

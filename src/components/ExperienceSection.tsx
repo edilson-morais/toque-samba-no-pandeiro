@@ -40,7 +40,7 @@ export const ExperienceSection = () => {
             <Card key={index} className="p-8 text-center hover:shadow-elegant transition-smooth">
               <div className="flex justify-center mb-6">
                 <div className="bg-primary/10 p-4 rounded-full">
-                  <benefit.icon className="w-8 h-8 text-primary" />
+                  <benefit.icon className="w-8 h-8 text-secondary" />
                 </div>
               </div>
               <div className="flex items-center justify-center mb-4">

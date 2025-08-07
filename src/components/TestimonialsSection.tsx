@@ -28,7 +28,7 @@ export const TestimonialsSection = () => {
           {testimonials.map((testimonial, index) => (
             <Card key={index} className="p-8 bg-accent/30 border-primary/20 hover:shadow-elegant transition-smooth">
               <div className="mb-6">
-                <Quote className="w-8 h-8 text-primary mb-4" />
+                <Quote className="w-8 h-8 text-secondary mb-4" />
                 <p className="text-lg text-foreground leading-relaxed italic">
                   "{testimonial.text}"
                 </p>
@@ -44,7 +44,7 @@ export const TestimonialsSection = () => {
                 
                 <div className="flex space-x-1">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-4 h-4 text-primary fill-current" />
+                    <Star key={i} className="w-4 h-4 text-secondary fill-current" />
                   ))}
                 </div>
               </div>

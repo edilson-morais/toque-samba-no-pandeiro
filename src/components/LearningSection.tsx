@@ -36,7 +36,7 @@ export const LearningSection = () => {
                   <CardContent className="p-6">
                     <div className="flex items-start gap-4">
                       <div className="bg-primary/20 p-3 rounded-lg">
-                        <topic.icon className="w-6 h-6 text-primary" />
+                        <topic.icon className="w-6 h-6 text-secondary" />
                       </div>
                       <div>
                         <h3 className="text-xl font-semibold mb-2 text-foreground">

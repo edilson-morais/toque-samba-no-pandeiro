@@ -27,15 +27,15 @@ export const CurriculumSection = () => {
               <div className="flex items-center justify-between">
                 <div className="flex items-center space-x-4">
                   <div className="bg-primary/10 p-3 rounded-full">
-                    <Calendar className="w-5 h-5 text-primary" />
+                    <Calendar className="w-5 h-5 text-secondary" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-primary">{item.day}</h3>
+                    <h3 className="text-xl font-bold text-secondary">{item.day}</h3>
                     <p className="text-lg text-muted-foreground">{item.content}</p>
                   </div>
                 </div>
                 <div className="bg-primary/5 p-2 rounded-full">
-                  <Play className="w-5 h-5 text-primary" />
+                  <Play className="w-5 h-5 text-secondary" />
                 </div>
               </div>
             </Card>

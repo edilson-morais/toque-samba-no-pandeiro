@@ -37,7 +37,7 @@ export const PaymentSection = () => {
             <Card key={index} className="p-8 text-center hover:shadow-elegant transition-smooth">
               <div className="flex justify-center mb-6">
                 <div className="bg-primary/10 p-4 rounded-full">
-                  <method.icon className="w-8 h-8 text-primary" />
+                  <method.icon className="w-8 h-8 text-secondary" />
                 </div>
               </div>
               
@@ -46,7 +46,7 @@ export const PaymentSection = () => {
                 <h3 className="text-xl font-bold text-foreground">{method.title}</h3>
               </div>
               
-              <p className="text-lg font-semibold text-primary mb-4">{method.subtitle}</p>
+              <p className="text-lg font-semibold text-secondary mb-4">{method.subtitle}</p>
               
               <div className="flex items-start space-x-2 text-muted-foreground">
                 <Clock className="w-4 h-4 mt-1 flex-shrink-0" />
