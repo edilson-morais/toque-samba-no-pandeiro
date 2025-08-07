@@ -14,9 +14,9 @@ export const Hero = () => {
           </div>
         </div>
         
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-          Toque Samba no Pandeiro em apenas{" "}
-          <span className="text-burnt-orange">7 Dias</span>
+        <h1 className="text-4xl md:text-6xl font-light mb-8 leading-tight">
+          Toque Seu Primeiro Samba no Pandeiro em apenas{" "}
+          <span className="text-burnt-orange font-semibold">7 Dias</span>
         </h1>
         
         <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 max-w-3xl mx-auto leading-relaxed">
@@ -39,12 +39,14 @@ export const Hero = () => {
           </div>
         </div>
         
-        <Button 
-          size="lg" 
-          className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 text-lg px-8 py-6 h-auto font-semibold shadow-glow"
-        >
-          👉 QUERO COMEÇAR AGORA
-        </Button>
+        <a href="https://sun.eduzz.com/R9JJ12VE9X?utm_source=seu-primeiro-samba-pv&utm_id=samba_pv" target="_blank" rel="noopener noreferrer">
+          <Button 
+            size="lg" 
+            className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 text-lg px-8 py-6 h-auto font-medium shadow-soft hover:shadow-elegant transition-all duration-300"
+          >
+            👉 QUERO COMEÇAR AGORA
+          </Button>
+        </a>
       </div>
     </section>
   );

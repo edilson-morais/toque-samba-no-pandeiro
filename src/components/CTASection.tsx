@@ -17,13 +17,15 @@ export const CTASection = () => {
           Ganhe confiança, ritmo e alegria — tudo com acompanhamento de um mestre reconhecido.
         </p>
         
-        <Button 
-          size="lg" 
-          className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 text-xl px-12 py-8 h-auto font-bold shadow-glow"
-        >
-          👉 QUERO COMEÇAR AGORA
-          <ArrowRight className="ml-2 w-6 h-6" />
-        </Button>
+        <a href="https://sun.eduzz.com/R9JJ12VE9X?utm_source=seu-primeiro-samba-pv&utm_id=samba_pv" target="_blank" rel="noopener noreferrer">
+          <Button 
+            size="lg" 
+            className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 text-xl px-12 py-8 h-auto font-medium shadow-soft hover:shadow-elegant transition-all duration-300"
+          >
+            👉 QUERO COMEÇAR AGORA
+            <ArrowRight className="ml-2 w-6 h-6" />
+          </Button>
+        </a>
       </div>
     </section>
   );
