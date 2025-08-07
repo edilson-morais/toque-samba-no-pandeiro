@@ -14,11 +14,11 @@ export const ExperienceSection = () => {
     title: "Para todos",
     description: "Ideal para iniciantes de todas as idades."
   }];
-  return <section className="bg-gradient-subtle py-[65px]">
+  return <section className="bg-gradient-subtle pt-[85px] pb-[65px]">
       <div className="container max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-            🥁 Uma Experiência Musical Transformadora
+            Uma Experiência Musical Transformadora
           </h2>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
             Você ama samba, sente o ritmo na alma, mas nunca soube por onde começar a aprender?
