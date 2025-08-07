@@ -22,7 +22,7 @@ All colors MUST be HSL.
     --primary-foreground: 0 0% 100%;
     --primary-glow: 258 80% 25%;
 
-    --secondary: 220 90% 25%;
+    --secondary: 219 79% 73%;
     --secondary-foreground: 0 0% 100%;
 
     --muted: 0 0% 12%;
@@ -36,12 +36,12 @@ All colors MUST be HSL.
 
     --border: 0 0% 15%;
     --input: 0 0% 15%;
-    --ring: 220 90% 25%;
+    --ring: 219 79% 73%;
 
     --success: 120 60% 50%;
     --success-foreground: 0 0% 100%;
 
-    --warning: 220 90% 25%;
+    --warning: 219 79% 73%;
     --warning-foreground: 0 0% 100%;
 
     --burnt-orange: 25 85% 45%;
