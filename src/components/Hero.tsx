@@ -39,7 +39,7 @@ export const Hero = () => {
           </div>
         </div>
         
-        <a href="https://sun.eduzz.com/R9JJ12VE9X?utm_source=seu-primeiro-samba-pv&utm_id=samba_pv" target="_blank" rel="noopener noreferrer">
+        <a href="https://sun.eduzz.com/R9JJ12VE9X?utm_source=seu-primeiro-samba-pv&utm_id=samba_pv" target="_blank" rel="noopener noreferrer" className="mb-8 inline-block">
           <Button 
             size="lg" 
             className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 text-lg px-8 py-6 h-auto font-medium shadow-soft hover:shadow-elegant transition-all duration-300"
