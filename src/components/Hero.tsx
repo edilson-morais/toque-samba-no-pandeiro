@@ -19,7 +19,7 @@ export const Hero = () => {
           divertida e acessível — mesmo que você nunca tenha tocado antes.
         </p>
         
-        <div className="mb-12 max-w-4xl mx-auto">
+        <div className="mb-12 max-w-3xl mx-auto">
           <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-elegant">
             <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ryskM4LGrtk" title="Pandeiro Tutorial" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen className="absolute inset-0"></iframe>
           </div>
