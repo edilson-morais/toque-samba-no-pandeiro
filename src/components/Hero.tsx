@@ -1,17 +1,12 @@
-
 import { Button } from "@/components/ui/button";
 import { Music } from "lucide-react";
-
 export const Hero = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-hero text-primary-foreground overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center bg-gradient-hero text-primary-foreground overflow-hidden">
       <div className="absolute inset-0 bg-primary-foreground/5"></div>
       
       <div className="container max-w-4xl mx-auto px-6 text-center relative z-10">
         <div className="flex justify-center mb-8">
-          <div className="bg-primary-foreground/20 p-4 rounded-full backdrop-blur-sm">
-            <Music className="w-12 h-12 text-primary-foreground" />
-          </div>
+          
         </div>
         
         <h1 className="text-4xl md:text-6xl font-light mb-8 leading-tight">
@@ -26,28 +21,15 @@ export const Hero = () => {
         
         <div className="mb-12 max-w-4xl mx-auto">
           <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-elegant">
-            <iframe
-              width="100%"
-              height="100%"
-              src="https://www.youtube.com/embed/ryskM4LGrtk"
-              title="Pandeiro Tutorial"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              className="absolute inset-0"
-            ></iframe>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ryskM4LGrtk" title="Pandeiro Tutorial" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen className="absolute inset-0"></iframe>
           </div>
         </div>
         
         <a href="https://sun.eduzz.com/R9JJ12VE9X?utm_source=seu-primeiro-samba-pv&utm_id=samba_pv" target="_blank" rel="noopener noreferrer" className="mb-8 inline-block">
-          <Button 
-            size="lg" 
-            className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 text-lg px-8 py-6 h-auto font-medium shadow-soft hover:shadow-elegant transition-all duration-300"
-          >
+          <Button size="lg" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 text-lg px-8 py-6 h-auto font-medium shadow-soft hover:shadow-elegant transition-all duration-300">
             👉 QUERO COMEÇAR AGORA
           </Button>
         </a>
       </div>
-    </section>
-  );
+    </section>;
 };
