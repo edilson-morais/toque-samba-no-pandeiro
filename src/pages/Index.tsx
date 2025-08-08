@@ -9,6 +9,7 @@ import { FAQSection } from "@/components/FAQSection";
 import { PaymentSection } from "@/components/PaymentSection";
 import { CTASection } from "@/components/CTASection";
 import { Footer } from "@/components/Footer";
+import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 
 const Index = () => {
   return (
@@ -24,6 +25,7 @@ const Index = () => {
       <PaymentSection />
       <CTASection />
       <Footer />
+      <WhatsAppFloat />
     </div>
   );
 };
