@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Music } from "lucide-react";
 export const Hero = () => {
-  return <section className="relative min-h-screen flex items-center justify-center bg-gradient-hero text-primary-foreground overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center text-primary-foreground overflow-hidden" style={{backgroundImage: 'url(/lovable-uploads/ec84dac6-44b2-40fa-bc18-ce02131c69d3.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
       <div className="absolute inset-0 bg-primary-foreground/5"></div>
       
       <div className="container max-w-4xl mx-auto px-6 text-center relative z-10">
